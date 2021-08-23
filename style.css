@@ -1,0 +1,75 @@
+body {
+  font-family: 'Orbitron', sans-serif;
+  background-color: rgb(29, 29, 29);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+#clock {
+  font-size: 10em;
+  border: 3px solid springgreen;
+  border-radius: 10px;
+  padding-inline: 100px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1228px) and (min-width:1200px) {
+  #clock {
+    font-size: 9em;
+    width: 78%;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width:1000px) {
+  #clock {
+    font-size: 8em;
+    width: 76%;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width:768px) {
+  #clock {
+    font-size: 7em;
+    width: 74%;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width:730px) {
+  #clock {
+    font-size: 6em;
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 730px) and (min-width:700px) {
+  #clock {
+    font-size: 5em;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 700px) and (min-width:600px) {
+  #clock {
+    font-size: 4em;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) and (min-width:500px) {
+  #clock {
+    font-size: 3em;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 500px) and (min-width:320px) {
+  #clock {
+    font-size: 2em;
+    width: 20%;
+  }
+}
